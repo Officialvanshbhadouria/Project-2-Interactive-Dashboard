@@ -1,34 +1,32 @@
-# Project-2-Interactive-Dashboard-
-
 # Sales Dashboard – Excel
 
-This is an interactive **Sales Dashboard built in Microsoft Excel**.
-I created this project to practice working with sales data, PivotTables, PivotCharts, Slicers and dashboard design.
+An interactive sales dashboard built in **Microsoft Excel** to analyze sales performance using PivotTables, PivotCharts, Slicers, formulas, and KPI cards.
 
-The dashboard allows users to filter the data and see the changes in sales performance through different charts and KPI cards.
+This is my second data analytics project, where I worked with a sales dataset and converted the raw data into an interactive dashboard.
 
 ## Project Overview
 
-The dataset contains **10,000 sales records** covering different products, cities, regions, sales channels, payment modes and delivery statuses.
+The dataset contains **10,000 sales records** with information about products, customers, cities, regions, sales channels, payment modes, delivery status, sales, discounts, and profit.
 
-I used Excel to clean and organize the data, create PivotTables and then built an interactive dashboard from those PivotTables.
+I used Excel to organize the data, create PivotTables and charts, and then connect everything through interactive slicers.
 
 ## Dashboard Features
 
-* Total Sales KPI
-* Total Profit KPI
-* Quantity Sold KPI
-* Total Discount KPI
+* Total Sales
+* Total Profit
+* Quantity Sold
+* Total Discount
 * Sales by Delivery Status
 * Sales by Payment Mode
 * Sales by Sales Channel
 * Sales by Product Category
 * Sales by City
 * Sales by Region
-* Monthly Sales analysis
-* Interactive slicers for filtering the dashboard
+* Monthly Sales Analysis
+* Interactive Slicers
+* Dynamic KPI Cards
 
-## Filters Used
+## Filters
 
 The dashboard can be filtered using:
 
@@ -41,56 +39,41 @@ The dashboard can be filtered using:
 * City
 * Month
 
-When a filter is selected, the connected PivotTables, charts and KPI values update accordingly.
+The charts and KPI cards update when the slicers are used.
 
-## Excel Sheets
+## Excel Workbook Structure
 
-### 1. Main Data
+### Main Data
 
-Contains the original sales data with fields such as:
+Contains the sales dataset used for the analysis.
 
-* Order ID
-* Date
-* Customer Name
-* Region
-* City
-* Sales Channel
-* Product Category
-* Product Sub-Category
-* Quantity Sold
-* Unit Price
-* Total Sales
-* Discount
-* Net Sales
-* Payment Mode
-* Delivery Status
-* Profit Amount
+### Pivot Tables
 
-### 2. Pivot Tables
+Contains the PivotTables created to analyze sales, profit, quantity, discounts, cities, regions, categories, and monthly performance.
 
-I created multiple PivotTables from the main dataset to calculate and analyze sales, profit, quantity, discounts, monthly performance, cities, regions and product sub-categories.
+### Dashboard
 
-### 3. Dashboard
+The final interactive dashboard with KPI cards, charts, and slicers.
 
-The final interactive dashboard containing KPI cards, charts and slicers.
+### Rough Work
 
-### 4. Rough Work
+Used for calculations, testing, and initial dashboard planning.
 
-Used during the initial data preparation and planning stage.
-
-## Tools Used
+## Tools & Skills Used
 
 * Microsoft Excel
 * PivotTables
 * PivotCharts
 * Slicers
 * GETPIVOTDATA
-* Excel formulas
-* Dashboard design
+* Excel Formulas
+* KPI Cards
+* Dashboard Design
+* Data Analysis
 
-## Some Overall Numbers
+## Key Numbers
 
-Before applying filters, the dataset shows approximately:
+Before applying filters, the dashboard shows:
 
 * **Total Sales:** ₹30.59M
 * **Total Profit:** ₹6.55M
@@ -98,11 +81,11 @@ Before applying filters, the dataset shows approximately:
 * **Total Discount:** ₹2.70M
 * **Net Sales:** ₹27.89M
 
-These values change when different slicers are selected.
+These values change based on the selected filters.
 
 ## What I Learned
 
-Through this project, I practiced how to:
+While working on this project, I learned how to:
 
 * Work with a large sales dataset in Excel
 * Create and use PivotTables
@@ -110,15 +93,15 @@ Through this project, I practiced how to:
 * Connect multiple slicers with PivotTables
 * Create dynamic KPI cards
 * Use GETPIVOTDATA
-* Organize data into a clean dashboard
-* Present business data in an easy-to-understand way
+* Build an interactive dashboard
+* Present data in a simple and understandable way
 
-## Project Preview
+## Project File
 
-Add a screenshot of the dashboard here:
+The complete Excel workbook is available in this repository:
 
-`![Sales Dashboard](dashboard.png)`
+**[Project - 2 Interactive Dashboard.xlsx](./Project%20-%202%20Interactive%20Dashboard.xlsx)**
 
 ## Conclusion
 
-This project helped me understand how raw sales data can be converted into an interactive dashboard that makes it easier to analyze sales performance and find useful business insights.
+This project helped me improve my Excel and data analysis skills by taking raw sales data and turning it into an interactive dashboard that can be used to explore sales performance from different perspectives.
